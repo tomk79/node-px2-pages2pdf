@@ -1,0 +1,27 @@
+{
+  "name": "px2-pages2pdf",
+  "version": "2.0.0-alpha1",
+  "description": "",
+  "main": "libs/main.js",
+  "repository": {
+    "url": "https://github.com/tomk79/node-px2-pages2pdf.git"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd ./tests/"
+  },
+  "author": "Tomoya Koyanagi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.0",
+    "glob": "*",
+    "mime": "^1.3.4",
+    "mkdirp": "0.*",
+    "phantomjs": "^1.9.17",
+    "phpjs": "*",
+    "rmdir": "^1.1.0",
+    "twig": "^0.8.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}

@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+scss_cache
+/vendor/
+/px-files/_sys/ram/
+composer.lock
+/caches/
+!*.gitkeep
+~$*
